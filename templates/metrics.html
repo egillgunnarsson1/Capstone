@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="initial.js" type="text/javascript"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-contour.v1.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+</head>
+<body>
+
+    <header>
+        <div class="header_leftArea">
+            <h3>M.S. <span>Project</span></h3>
+        </div>
+        <div class="header_rightArea">
+            <a class ="header_topBtn" href="initial.html">Home</a>
+            <a class ="header_topBtn" href="insert.html">How To Load Your Model</a>
+            <a class ="header_topBtn" href="metrics.html"><span>Metrics</span></a>
+            <a class ="header_topBtn" href="about.html">About</a>
+        </div>
+    </header>
+
+    <div class="sidebar">
+        <a href="#">Metrics</a>
+        <div class="sidebarElements">
+            <a href="#">Accuracy</a>
+            <a href="#">Balanced Accuracy</a>
+            <a href="#">Geometric Mean</a>
+            <a href="#">Precision</a>
+            <a href="#">Recall</a>
+            <a href="#">F1-Score</a>
+            <a href="#">Gilbert's Skill Score</a>
+            <a href="#">Doolittle's Skill Score</a>
+            <a href="#">True Skill Statistic</a>
+            <a href="#">Heidke Skill Score</a>
+            <a href="#">Youden Index</a>
+            <a href="#">ROC Space</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1 style="padding-left: 10px;">What metrics are we using?</h1>
+
+        <div class="metrics" style="text-align: center;">
+            <h2>Accuracy</h2>
+            \[acc = {{tp + tn} \over {p + n}}\]
+            <h2>Balanced Accuracy</h2>
+            \[bac = {1 \over 2}({{tp + tn} \over {p + n}})\]
+            <h2>Geometric Mean</h2>
+            \[gem = ({{tp \over p} * {tn \over n}})^{1 \over 2}\]
+            <h2>Precision</h2>
+            \[pre = {{tp} \over {p}^¬}\]
+            <h2>Recall</h2>
+            \[rec = {{tp} \over {p}}\]
+            <h2>F1-Score</h2>
+            \[f{_1} = {2*{{pre * rec} \over {pre + rec}}}\]
+            <h2>Gilbert's Skill Score</h2>
+            \[gss = {{tp - r} \over {tp + fp + fn - r}}\]
+            <h2>Doolittle's Skill Score</h2>
+            \[dss = {({tp * tn - fp * fn})^2 \over {(tp + fp) * (tp + fn) * p * n}}\]
+            <h2>True Skill Statistic</h2>
+            \[tss = {{tp \over p} - {fp \over n}}\]
+            <h2>Heidke Skill Score</h2>
+            \[hss = {{2*((tp * tn) - (fn * fp))} \over {p * (fn + tn) + n * (tp + fp)}}\]
+            <h2>Youden Index</h2>
+            \[ydn = {{tp * tn - fn * fp} \over {(tp + fn) * (fp + tn)}}\]
+            <h2>ROC Space</h2>
+            \[ROC{_d} = ({({fp \over n})^2 + ({fn \over p})^2})^{1 \over 2}\]
+        </div>
+    </div>
+</body>
+</html>

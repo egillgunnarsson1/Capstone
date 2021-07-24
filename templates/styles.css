@@ -1,0 +1,278 @@
+*{
+    font-family: "Montserrat"
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    top: 0px;
+    position: fixed;
+    background: #22242A;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+
+.header_leftArea h3{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.header_leftArea span{
+    color: #1DC4E7;
+}
+
+.header_rightArea{
+    float: right;
+    margin-top: -20px;
+    margin-right: 40px;
+}
+
+.header_rightArea span{
+    text-decoration: underline;
+}
+
+.header_topBtn{
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: all;
+}
+
+.sidebar{
+    background: #2F323A;
+    margin-top: 70px;
+    padding-top: 30px;
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 100%;
+}
+
+.sidebar h4{
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    margin-top: -15px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    font-size: 20px;
+    text-decoration: underline;
+    box-sizing: border-box;
+}
+
+.sidebar .sidebarElements a{
+    margin-top: -5px;
+    font-size: 15px;
+    margin-top: -20px;
+    text-decoration: none;
+}
+
+select{
+    text-align: center;
+    background: #2F323A;
+    color: #fff;
+    font-size: 30px;
+    border-left: : 1px solid black;
+}
+
+#selectDiv{
+    padding-left: 25px;
+    margin-top: 20px;
+    background: #2F323A;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#selectDiv button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 30px;
+    background-color: : #808080;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    width: 155px;
+}
+
+#selectDiv select {
+  padding: 10px;
+  margin: -10px -20px -10px -10px;
+}
+
+select option{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;;
+}
+
+select option:checked {
+    background-color: #808080;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.content{
+    margin-left: 200px;
+    padding-top: 75px;
+    height: 100%;
+    text-align: center;
+}
+
+.top{
+    height: 250px;
+}
+
+.topLeft{
+    width:43%;
+    float: left;
+    margin-top: -75px;
+}
+
+.topLeft button{
+    background: #c0e6f1;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #22242A;
+}
+
+.topRight{
+    margin-top: -75px;
+    margin-right: 30px;
+    float: right;
+}
+
+.topRight button{
+    background: #c0e6f1;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #22242A;
+}
+
+.ratio input{
+    width: 75px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ratio button{
+    background: #c0e6f1;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #22242A;
+}
+
+td input{
+    height: 75px;
+    width: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+div.tooltip {
+     position: absolute;
+     text-align: center;
+     padding: .2rem;
+     background: #313639;
+     color: #f9f9f9;
+     border: 0px;
+     border-radius: 8px;
+     pointer-events: none;
+     font-size: .7rem;
+}
+
+svg{
+    margin-bottom: 15px;
+}
+
+.metrics{
+    text-align: left;
+    padding-left: 5%;
+}
+
+.insertLeft{
+    float: left;
+    width: 45%;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.insertRight{
+    float:right;
+    width: 45%;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+.aboutLeft{
+    margin-left: 100px;
+    text-align: left;
+    width: 25%;
+    float: left;
+    margin-top: 75px;
+}
+
+.aboutRight{
+    text-align: left;
+    font-size: 14px;
+    width: 65%;
+    margin-top: 75px;
+    padding-top: 25px;
+    float:right;
+}
+
+
+#neg{
+    font-size: 45px;
+    font-family: 'Montserrat';
+}
+
+#resetBtn{
+    margin-top: 10px;
+    width: 100px;
+}
+
+#creatorPic{
+    height: 350px;
+    width: 250px;
+}
+
+#creatorName{
+    font-weight: bold;
+    font-size: 25px;
+}

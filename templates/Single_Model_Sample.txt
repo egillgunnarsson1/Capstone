@@ -1,0 +1,13 @@
+[
+	{
+	"name": "model1",
+	"elements": [
+		{"tp": ,"fp": ,"fn": ,"tn": ,"epoch": 1},
+		{"tp": ,"fp": ,"fn": ,"tn": ,"epoch": 2},
+		{"tp": ,"fp": ,"fn": ,"tn": ,"epoch": 3},
+		{"tp": ,"fp": ,"fn": ,"tn": ,"epoch": 4},
+		{"tp": ,"fp": ,"fn": ,"tn": ,"epoch": 5},
+		{"tp": ,"fp": ,"fn": ,"tn": ,"epoch": 6}
+		]
+	}
+]
