@@ -3,6 +3,8 @@
 }
 
 body{
+    height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -91,7 +93,6 @@ select{
     background: #2F323A;
     color: #fff;
     font-size: 30px;
-    border-left: : 1px solid black;
 }
 
 #selectDiv{
@@ -139,19 +140,24 @@ select option:checked {
 
 .content{
     margin-left: 200px;
-    padding-top: 75px;
+    display: inline-block;
     height: 100%;
+    width: 100%;
+    margin-top: 70px;
     text-align: center;
+    overflow: hidden;
 }
 
 .top{
-    height: 250px;
+    overflow: hidden;
+    margin-top: -50px;
 }
 
 .topLeft{
-    width:43%;
+    width:49%;
+    text-align: center;
     float: left;
-    margin-top: -75px;
+
 }
 
 .topLeft button{
@@ -165,9 +171,9 @@ select option:checked {
 }
 
 .topRight{
-    margin-top: -75px;
-    margin-right: 30px;
+    width: 49%;
     float: right;
+
 }
 
 .topRight button{
@@ -275,4 +281,11 @@ svg{
 #creatorName{
     font-weight: bold;
     font-size: 25px;
+}
+
+#references{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0px;
+    margin: 0px;
 }
